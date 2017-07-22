@@ -323,6 +323,9 @@ a.navbar-brand.text-uppercase.page-scroll:hover{
         font-weight: bold;
         margin-top: 50px;
     }
+    a.navbar-brand.text-uppercase.page-scroll {
+        font-size: 17px;
+    }
 
 }
 
