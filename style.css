@@ -1078,6 +1078,11 @@ footer .container .row .footer-right ul li a:hover i {
     .card {
         margin-bottom: 15px;
     }
+    .pricing .card .card-block p {
+        border-radius: 0;
+        font-size: 14px;
+    }
+
     .news .content-news .one-new .col-md-8 h6 {
         font-size: 12px;
         color: #39D1EF;
