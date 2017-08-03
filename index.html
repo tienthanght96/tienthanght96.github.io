@@ -1,223 +1,914 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Title</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <script src="js/tether.js"></script>
-    <!--<script src="js/jquery-3.2.1.js"></script>-->
-    <!--<script src="js/bootstrap.js"></script>-->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,600 ,800"
+          rel="stylesheet">
 </head>
 <body>
-<div class="wrapper-navbar fixed-top">
-    <nav class=" navbar-toggleable-md  navbar-default  navbar-light navbar navication"  id="mainNav">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                aria-label="Toggle navigation"> Menu
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand text-uppercase  page-scroll" href="#">Start boostrap</a>
+<header class="fixed-top">
+    <nav class="navbar navbar-light navbar-toggleable-md  bg-faded">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler  navbar-toggler-right" type="button" data-toggle="collapse"
+                    data-target="#myMenu" aria-controls="myMenu"
+                    aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse  navbar-collapse" id="myMenu">
 
-        <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-                <li class="nav-item text-uppercase">
-                    <a class="nav-link page-scroll" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item text-uppercase">
-                    <a class="nav-link page-scroll " href="#">Service</a>
-                </li>
-                <li class="nav-item text-uppercase">
-                    <a class="nav-link page-scroll" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item text-uppercase">
-                    <a class="nav-link page-scroll" href="#">About</a>
-                </li>
-                <li class="nav-item text-uppercase">
-                    <a class="nav-link page-scroll" href="#">Contact</a>
-                </li>
-            </ul>
+                <ul class="nav navbar-nav ">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Feature</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="dropdownId"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                        <!--<div class="dropdown-menu" aria-labelledby="dropdownId">-->
+                        <!--<a class="dropdown-item" href="#">Action 1</a>-->
+                        <!--<a class="dropdown-item" href="#">Action 2</a>-->
+                        <!--</div>-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                </ul>
 
+            </div>
         </div>
     </nav>
+</header>
+
+<div class="content">
+    <div class="video-section">
+        <video autoplay loop>
+            <source src="https://demos.famethemes.com/onepress-plus/wp-content/uploads/sites/18/2017/03/Spacious.mp4"
+                    type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="bg-content"></div>
+        <section class="container text-center one-page">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="tittle-content">We are one page</h2>
+                    <p>Place a short tagline here and large welcome message like above.<br>
+                        Unlimited background slides, parallax effect and video background too.</p>
+                    <a href="" class="btn-lg btn-primary">Our Service</a>
+                    <a href="" class="btn-lg btn-secondary">Get Started</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="logo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 text-center">
+                    <img src="images/client_logo_1.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-3 text-center img-2">
+                    <img src="images/client_logo_2.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-3 text-center">
+                    <img src="images/client_logo_3.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-3 text-center">
+                    <img src="images/client_logo_4.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="feature">
+        <div class="container">
+            <div class="row feature-tittle">
+                <div class="col-md-6 push-md-3 col-sm-12 text-center">
+                    <h6>WHY CHOOSE US</h6>
+                    <h2>FEATURES</h2>
+                </div>
+            </div>
+            <div class="row feature-content">
+                <div class="col-sm-6  col-md-3 text-center item">
+                    <h1><i class="fa fa-laptop" aria-hidden="true"></i></h1>
+                    <h6>Responsive Design</h6>
+                    <p>The theme is responsive, your website will look great on touch devices</p>
+                </div>
+                <div class="col-sm-6 col-md-3 text-center item">
+                    <h1><i class="fa fa-picture-o" aria-hidden="true"></i></h1>
+                    <h6>Parallax Effect</h6>
+                    <p>Create memorable pages with smooth parallax effects that everyone loves.</p>
+                </div>
+                <div class="col-sm-6 col-md-3 text-center item">
+                    <h1><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></h1>
+                    <h6>WooCommerce</h6>
+                    <p>Build a front page for your WooCommerce store in minutes.</p>
+                </div>
+                <div class="col-sm-6 col-md-3 text-center item">
+                    <h1><i class="fa fa-bars"></i></h1>
+                    <h6>Content Blocks</h6>
+                    <p>Change the sections contents, display each block exactly where you need it.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <div class="container">
+            <div class="row feature-tittle">
+                <div class="col-md-8 push-md-3 col-sm-12  text-center">
+                    <h6>SECTION SUBTITLE</h6>
+                    <h2>ABOUT</h2>
+                    <p>We provide creative solutions to clients around the world,<br>
+                        creating things that get attention and meaningful.</p>
+                </div>
+            </div>
+            <div class="row feature-content">
+                <div class="col-md-4 text-left item">
+                    <img src="images/about1.jpg" alt="" class="img-fluid">
+                    <h6>Responsive Design</h6>
+                    <p>The theme is responsive, your website will look great on touch devices</p>
+                </div>
+                <div class="col-md-4 text-left item">
+                    <img src="images/about2.jpg" alt="" class="img-fluid">
+                    <h6>Parallax Effect</h6>
+                    <p>Create memorable pages with smooth parallax effects that everyone loves.</p>
+                </div>
+                <div class=" col-md-4 text-left item">
+                    <img src="images/about3.jpg" alt="" class="img-fluid">
+                    <h6>WooCommerce</h6>
+                    <p>Build a front page for your WooCommerce store in minutes.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="intro">
+        <div class="bg-intro"></div>
+        <div class="container text-center">
+            <h3>ONE PAGE WORDPRESS THEME, PERFECTED</h3>
+        </div>
+    </div>
+    <div class="about">
+        <div class="container">
+            <div class="row feature-tittle">
+                <div class="col-md-12 text-center">
+                    <h6>SECTION SUBTITLE</h6>
+                    <h2>GALLERY</h2>
+                    <p>NEW: Gallery section support advanced layouts: Grid, Slider, Carousel, Masonry, Justified,</p>
+                    <p> Images source: WordPress Gallery, Facebook Album, Flickr, Instagram.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="my-slide" class="carousel slide pb-lg-5" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#my-slide" data-slide-to="0" class="active"></li>
+            <li data-target="#my-slide" data-slide-to="1"></li>
+            <!--<li data-target="#my-slide" data-slide-to="2"></li>-->
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <div class="col-md-3">
+                    <img src="images/slide1.jpg" alt="" class=" ">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/slide2.jpg" alt="" class=" ">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/slide3.jpg" alt="" class=" ">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/slide4.jpg" alt="" class=" ">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="col-md-3">
+                    <img src="images/slide4.jpg" alt="" class=" ">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/slide5.jpg" alt="" class=" ">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/slide6.jpg" alt="" class=" ">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/slide7.jpg" alt="" class=" ">
+                </div>
+            </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#my-slide" role="button" data-slide="prev">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#my-slide" role="button" data-slide="next">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="services">
+        <div class="container">
+            <div class="row feature-tittle">
+                <div class="col-md-12 text-center">
+                    <h6>SECTION SUBTITLE</h6>
+                    <h2>GALLERY</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="s-item">
+                        <div class="row">
+                            <div class="col-3">
+                                <i class="fa fa-wikipedia-w fa-5x"></i>
+                            </div>
+                            <div class="col-9">
+                                <h4>Service Title #1</h4>
+                                <p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi euismod in pharetra a
+                                    ultricies.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="s-item">
+                        <div class="row">
+                            <div class="col-3">
+                                <i class=" fa fa-gg fa-5x"></i>
+                            </div>
+                            <div class="col-9">
+                                <h4>Service Title #1</h4>
+                                <p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi euismod in pharetra a
+                                    ultricies.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="s-item">
+                        <div class="row">
+                            <div class="col-3">
+                                <i class="fa fa-balance-scale fa-5x"></i>
+                            </div>
+                            <div class="col-9">
+                                <h4>Service Title #1</h4>
+                                <p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi euismod in pharetra a
+                                    ultricies.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="s-item">
+                        <div class="row">
+                            <div class="col-3">
+                                <i class="fa fa-object-group fa-5x"></i>
+                            </div>
+                            <div class="col-9">
+                                <h4>Service Title #1</h4>
+                                <p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi euismod in pharetra a
+                                    ultricies.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="s-item">
+                        <div class="row">
+                            <div class="col-3">
+                                <i class="fa fa-bar-chart fa-5x"></i>
+                            </div>
+                            <div class="col-9">
+                                <h4>Service Title #1</h4>
+                                <p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi euismod in pharetra a
+                                    ultricies.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="s-item">
+                        <div class="row">
+                            <div class="col-3">
+                                <i class="fa fa-credit-card fa-5x"></i>
+                            </div>
+                            <div class="col-9">
+                                <h4>Service Title #1</h4>
+                                <p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi euismod in pharetra a
+                                    ultricies.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!--end services-->
+
+    <!--start projects-->
+    <div class="projects">
+        <div class="container">
+            <div class="row feature-tittle">
+                <div class="col-md-12 text-center">
+                    <h6>SOME OF OUR WORKS</h6>
+                    <h2>HIGHLIGHT PROJECTS</h2>
+                </div>
+            </div>
+            <div class="container ">
+                <div class="row projects-content">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="wrapper-img">
+                            <img src="images/project1-640x400.jpg" alt="" class="img-fluid">
+                        </div>
+                        <h6>PROJECT TITLE FIRST</h6>
+                        <p class="">BRANDING / GRAPHIC </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="wrapper-img">
+                            <img src="images/project2-640x400.jpg" alt="" class="img-fluid">
+                        </div>
+                        <h6>PROJECT TITLE SECOND</h6>
+                        <p class="">PACKAGE / VIDEO </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="wrapper-img">
+                            <img src="images/project3-640x400.jpg" alt="" class="img-fluid">
+                        </div>
+                        <h6>PROJECT TITLE THIRD</h6>
+                        <p class="">VIDEO / WEB DESIGN </p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="wrapper-img">
+                            <img src="images/project4-640x400.jpg" alt="" class="img-fluid">
+                        </div>
+                        <h6>PROJECT TITLE FIRST</h6>
+                        <p class="">BRANDING / GRAPHIC </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="wrapper-img">
+                            <img src="images/project5-640x400.jpg" alt="" class="img-fluid">
+                        </div>
+                        <h6>PROJECT TITLE SECOND</h6>
+                        <p class="">PACKAGE / VIDEO </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="wrapper-img">
+                            <img src="images/project6-640x400.jpg" alt="" class="img-fluid">
+                        </div>
+                        <h6>PROJECT TITLE THIRD</h6>
+                        <p class="">VIDEO / WEB DESIGN </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="others">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h6>SOME FUN FACTS ABOUT OUR AGENCY?</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <h2>368</h2>
+                    <p>Projects completed</p>
+                </div>
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <h2>99 %</h2>
+                    <p>Positive feedback</p>
+                </div>
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <h2>456</h2>
+                    <p>Pizzas ordered</p>
+                </div>
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <h2>$ 36</h2>
+                    <p>Average cost per hour</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="testimonials">
+        <div class="container">
+            <div class="row feature-tittle">
+                <div class="col-md-12 text-center">
+                    <h6>SOME OF OUR WORKS</h6>
+                    <h2>TESTIMONIALS</h2>
+                </div>
+            </div>
+            <div class="card-deck-wrapper">
+                <div class="card-deck">
+                    <div class="card first-item">
+
+                        <div class="card-block">
+                            <div class="">
+                                <div class="row">
+                                    <div class="col-md-5 col-sm-12 text-center">
+                                        <img src="images/testimonial_1.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="col-md-7 col-sm-12 text-center">
+                                        <h6>Alexander Rios</h6>
+                                        <p>Founder & CEO</p>
+                                    </div>
+                                </div>
+                                <h6>Praesent placerat</h6>
+                                <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue,
+                                    eu vulputate magna eros eu erat. Aliquam erat volutpat.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card second-item">
+
+                        <div class="card-block">
+                            <div class="">
+                                <div class="row">
+                                    <div class="col-md-5 col-sm-12 text-center">
+                                        <img src="images/testimonial_2.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="col-md-7 col-sm-12 text-center">
+                                        <h6>Alexander Max</h6>
+                                        <p>Founder & CEO</p>
+                                    </div>
+                                </div>
+                                <h6>Cras iaculis</h6>
+                                <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue eu
+                                    vulputate.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card third-item">
+
+                        <div class="card-block">
+                            <div class="">
+                                <div class="row">
+                                    <div class="col-md-5 col-sm-12 text-center">
+                                        <img src="images/testimonial_3.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="col-md-7 col-sm-12 text-center">
+                                        <h6>Peter Mendez</h6>
+                                        <p>Example Company</p>
+                                    </div>
+                                </div>
+                                <h6>Fusce lobortis</h6>
+                                <p>Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod
+                                    vel,
+                                    velit.
+                                    Pellentesque egestas sem. Suspendisse commodo ullamcorper magna egestas sem
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pricing">
+        <div class="container">
+            <div class="row feature-tittle">
+                <div class="col-md-12 text-center">
+                    <h6 class="text-white">RESPONSIVE PRICING SECTION</h6>
+                    <h2>PRICING TABLE</h2>
+                </div>
+            </div>
+            <div class="card-deck-wrapper">
+                <div class="card-deck">
+                    <div class="card">
+                        <div class="card-block">
+                            <h4 class="card-title">Freelancer</h4>
+                            <h2>$9.90</h2>
+                            <h6>Perfect for single freelancers who work by themselves</h6>
+                            <ul class="list-unstyled">
+                                <li>Support Forum</li>
+                                <li>Free hosting</li>
+                                <li>1 hour of support</li>
+                                <li>40MB of storage space</li>
+                            </ul>
+                            <p class="btn-lg btn-primary text-center">CHOOSE PLAN</p>
+                        </div>
+                    </div>
+                    <div class="card">
+
+                        <div class="card-block">
+                            <h4 class="card-title">Small Business</h4>
+                            <h2>$29.9</h2>
+                            <h6>Suitable for small businesses with up to 5 employees</h6>
+                            <ul class="list-unstyled">
+                                <li>Support Forum</li>
+                                <li>Free hosting</li>
+                                <li>1 hour of support</li>
+                                <li>41GB of storage space</li>
+                            </ul>
+                            <p class="btn-lg btn-success text-center">CHOOSE PLAN</p>
+                        </div>
+                    </div>
+                    <div class="card">
+
+                        <div class="card-block">
+                            <h4 class="card-title">Larger Business</h4>
+                            <h2>$59.90</h2>
+                            <h6>Great for large businesses with more than 5 employees</h6>
+                            <ul class="list-unstyled">
+                                <li>Support Forum</li>
+                                <li>Free hosting</li>
+                                <li>Unlimited hours of support</li>
+                                <li>Unlimited storage space</li>
+                            </ul>
+                            <p class="btn-lg btn-primary text-center">CHOOSE PLAN</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="other2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <h4>Use these ribbons to display calls to action mid-page.</h4>
+                </div>
+                <div class="col-lg-3 text-right">
+                    <button class="btn btn-outline-primary">Button Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="teams">
+        <div class="container">
+            <div class="row feature-tittle">
+                <div class="col-md-12 text-center">
+                    <h6 class="">SECTION SUBTITLE</h6>
+                    <h2>OUR TEAM</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center ">
+                    <div class="one-item">
+                        <img src="images/team1-480x300.jpg" alt="" class="layer1 img-fluid">
+                        <div class="layer2"></div>
+                        <div class="layer3">
+                            <ul class="list-unstyled">
+                                <li><a href=""><i class="fa fa-globe  "></i></a></li>
+                                <li><a href=""><i class="fa fa-twitter "></i></a></li>
+                                <li><a href=""><i class="fa fa-facebook  "></i></a></li>
+                                <li><a href=""><i class="fa fa-google-plus  "></i></a></li>
+                                <li><a href=""><i class="fa fa-linkedin  "></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="info-person">
+                        <h6>ALEXANDER RIOS</h6>
+                        <p>FOUNDER & CEO</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center ">
+                    <div class="one-item">
+                        <img src="images/team2-480x300.jpg" alt="" class="layer1 img-fluid">
+                        <div class="layer2"></div>
+                        <div class="layer3">
+                            <ul class="list-unstyled">
+                                <li><a href=""><i class="fa fa-globe "></i></a></li>
+                                <li><a href=""><i class="fa fa-twitter "></i></a></li>
+                                <li><a href=""><i class="fa fa-facebook  "></i></a></li>
+                                <li><a href=""><i class="fa fa-google-plus  "></i></a></li>
+                                <li><a href=""><i class="fa fa-linkedin  "></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="info-person">
+                        <h6>VICTORIA STEPHENS</h6>
+                        <p>FOUNDER & CEO</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center ">
+                    <div class="one-item">
+                        <img src="images/team3-480x300.jpg" alt="" class="layer1 img-fluid">
+                        <div class="layer2"></div>
+                        <div class="layer3">
+                            <ul class="list-unstyled">
+                                <li><a href=""><i class="fa fa-globe  "></i></a></li>
+                                <li><a href=""><i class="fa fa-twitter "></i></a></li>
+                                <li><a href=""><i class="fa fa-facebook  "></i></a></li>
+                                <li><a href=""><i class="fa fa-google-plus  "></i></a></li>
+                                <li><a href=""><i class="fa fa-linkedin  "></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="info-person">
+                        <h6>HARRY ALLEN</h6>
+                        <p>DIRECTOR OF PRODUCTION</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="one-item">
+                        <img src="images/team4-480x300.jpg" alt="" class="layer1 img-fluid">
+                        <div class="layer2"></div>
+                        <div class="layer3">
+                            <ul class="list-unstyled ">
+                                <li><a href=""><i class="fa fa-globe  "></i></a></li>
+                                <li><a href=""><i class="fa fa-twitter "></i></a></li>
+                                <li><a href=""><i class="fa fa-facebook "></i></a></li>
+                                <li><a href=""><i class="fa fa-google-plus  "></i></a></li>
+                                <li><a href=""><i class="fa fa-linkedin  "></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="info-person">
+                        <h6>SEAN WEAVER</h6>
+                        <p>SENIOR DESIGNER</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center ">
+                    <div class="one-item">
+                        <img src="images/team5-480x300.jpg" alt="" class="layer1 img-fluid">
+                        <div class="layer2"></div>
+                        <div class="layer3">
+                            <ul class="list-unstyled">
+                                <li><a href=""><i class="fa fa-globe  "></i></a></li>
+                                <li><a href=""><i class="fa fa-twitter "></i></a></li>
+                                <li><a href=""><i class="fa fa-facebook  "></i></a></li>
+                                <li><a href=""><i class="fa fa-google-plus  "></i></a></li>
+                                <li><a href=""><i class="fa fa-linkedin  "></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="info-person">
+                        <h6>JONATHAN GREEN</h6>
+                        <p>CLIENT ENGAGEMENT</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center ">
+                    <div class="one-item">
+                        <img src="images/team6-480x300.jpg" alt="" class="layer1 img-fluid">
+                        <div class="layer2"></div>
+                        <div class="layer3">
+                            <ul class="list-unstyled">
+                                <li><a href=""><i class="fa fa-globe  "></i></a></li>
+                                <li><a href=""><i class="fa fa-twitter "></i></a></li>
+                                <li><a href=""><i class="fa fa-facebook  "></i></a></li>
+                                <li><a href=""><i class="fa fa-google-plus  "></i></a></li>
+                                <li><a href=""><i class="fa fa-linkedin  "></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="info-person">
+                        <h6>PETER MENDEZ</h6>
+                        <p>INTERACTIVE DESIGNER</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center ">
+                    <div class="one-item">
+                        <img src="images/team7-480x300.jpg" alt="" class="layer1 img-fluid">
+                        <div class="layer2"></div>
+                        <div class="layer3">
+                            <ul class="list-unstyled">
+                                <li><a href=""><i class="fa fa-globe  "></i></a></li>
+                                <li><a href=""><i class="fa fa-twitter "></i></a></li>
+                                <li><a href=""><i class="fa fa-facebook  "></i></a></li>
+                                <li><a href=""><i class="fa fa-google-plus  "></i></a></li>
+                                <li><a href=""><i class="fa fa-linkedin  "></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="info-person">
+                        <h6>GEORGE WELLS</h6>
+                        <p>USER EXPERIENCE</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center ">
+                    <div class="one-item">
+                        <img src="images/team8-480x300.jpg" alt="" class="layer1 img-fluid">
+                        <div class="layer2"></div>
+                        <div class="layer3">
+                            <ul class="list-unstyled">
+                                <li><a href=""><i class="fa fa-globe  "></i></a></li>
+                                <li><a href=""><i class="fa fa-twitter "></i></a></li>
+                                <li><a href=""><i class="fa fa-facebook  "></i></a></li>
+                                <li><a href=""><i class="fa fa-google-plus  "></i></a></li>
+                                <li><a href=""><i class="fa fa-linkedin  "></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="info-person">
+                        <h6>THOMAS WADE</h6>
+                        <p>SENIOR DEVELOPER</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="news">
+        <div class="container">
+            <div class="row feature-tittle">
+                <div class="col-md-12 text-center">
+                    <h6 class="">SECTION SUBTITLE</h6>
+                    <h2>LATEST NEWS</h2>
+                </div>
+            </div>
+
+            <div class="row content-news">
+                <div class="one-new">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="images/blog1-300x150.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>APPS / ONE PAGE</h6>
+                            <h4>Markup: HTML Tags and Formatting</h4>
+                            <p>Headings Header one Header two Header three Header four Header five Header six
+                                Blockquotes Single line blockquote: Stay hungry.
+                                Stay foolish. Multi line blockquote with a cite reference: People think …
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="one-new">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="images/blog2-300x150.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>APPS / ONE PAGE</h6>
+                            <h4>Markup: HTML Tags and Formatting</h4>
+                            <p>Headings Header one Header two Header three Header four Header five Header six
+                                Blockquotes Single line blockquote: Stay hungry.
+                                Stay foolish. Multi line blockquote with a cite reference: People think …
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="one-new">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="images/blog4-300x150.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>APPS / ONE PAGE</h6>
+                            <h4>Markup: HTML Tags and Formatting</h4>
+                            <p>Headings Header one Header two Header three Header four Header five Header six
+                                Blockquotes Single line blockquote: Stay hungry.
+                                Stay foolish. Multi line blockquote with a cite reference: People think …
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 text-center">
+                    <button class="btn btn-outline-primary text-uppercase text-center ">Read Our Blog</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="touch">
+        <div class="container">
+            <div class="row feature-tittle">
+                <div class="col-md-12 text-center">
+                    <h6 class="">SECTION SUBTITLE</h6>
+                    <h2>GET IN TOUCH</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="form-group">
+                        <label for="name">Your Name (Require)</label>
+                        <input type="text" name="" id="name" class="form-control" placeholder="Name">
+                        <label for="email">Your Email (Require)</label>
+                        <input type="text" name="" id="email" class="form-control" placeholder="Email">
+                        <label for="subject">Subject</label>
+                        <input type="text" name="" id="subject" class="form-control" placeholder="Subject">
+                        <label>You Message</label>
+                        <span>
+                            <label for="msg"></label>
+                            <textarea name="text-msg" id="msg" cols="40" rows="10" class="form-control"></textarea>
+                        </span>
+                        <p><input type="submit" class="btn-primary btn form-control " value="Send"></p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 right-touch">
+                    <h6>WE ARE ACCEPTING NEW PROJECTS.</h6>
+                    <p>
+                        Dorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse pulvinar scelerisque dictum. Donec iaculis, diam sit amet suscipit feugiat, diam
+                        magna volutpat augue.
+                    </p>
+                    <p>Consectetur adipiscing elit. Suspendisse pulvinar scelerisque dictum. Donec iaculis,
+                        diam sit amet suscipit feugiat, diam magna volutpat augue.
+                    </p>
+                    <h6>Pulvinar scelerisque</h6>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href=""><i class="fa fa-map-marker"></i>1 Infinite Loop,Cupertino,CA 95014,United States</a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa fa-phone"></i>1.123.456.789</a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa fa-envelope"></i>contact@company.com</a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa fa-fax"></i>Fax: (123) 123-4567</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4">
+                    <div class="footer-left text-center">
+                        <h5 class="text-uppercase text-white">Join our Newsletter</h5>
+                        <form action="" class="form-group ">
+                            <input type="email" class="form-control mb-1 bg-inverse"
+                                   placeholder="Enter your e-mail address">
+                            <input type="submit" class="btn btn-primary form-control" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <div class="footer-right">
+                        <h5 class="text-white">KEEP UPDATED</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href=""><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+    </footer>
+    <div class="site-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+
+                        <a href=""><i class="fa fa-angle-double-up"></i></a>
+
+                    Copyright © 2017 OnePress Plus – OnePress theme by FameThemes
+                </div>
+            </div>
+        </div>
+    </div>
 
 </div>
 
-<header>
-    <div class="header-content ">
-        <div class="header-content-inner ">
-            <h1 id="homeHeading" class="text-uppercase">Your Favorite Source of Free Bootstrap Themes</h1>
-            <hr>
-            <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just
-                download
-                your template and start going, no strings attached!</p>
-            <a href="#" class="btn btn-primary btn-xl page-scroll text-uppercase page-scroll">Find Out More</a>
-        </div>
-    </div>
-</header>
-<section class="started ">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center content">
-                <div class="inner-content ">
-                    <h2>We've got what you need!</h2>
-                    <hr class="text-white">
-                    <p>Start Bootstrap has everything you need to get your new website up and running in no time!
-                        All of the templates and themes on Start Bootstrap are open source,
-                        free to download, and easy to use. No strings attached!
-                    </p>
-                    <a href="#" class="btn btn-primary btn-xl page-scroll text-uppercase find-more ">Get started</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="service">
-    <div class="container text-center">
-        <h2>At Your Service</h2>
-        <hr class="text-white">
-        <div class="row">
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="inner-content ">
-
-                    <i class="fa fa-diamond" aria-hidden="true"></i>
-                    <h3>Sturdy Templates</h3>
-                    <p class="text-muted"> Our templates are updated regularly so they don't break.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="inner-content ">
-                    <i class="fa fa-heart" aria-hidden="true"></i>
-                    <h3>Sturdy Templates</h3>
-                    <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="inner-content ">
-                    <i class="fa fa-newspaper-o" aria-hidden="true"></i>
-                    <h3>Sturdy Templates</h3>
-                    <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="inner-content ">
-
-                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                    <h3>Sturdy Templates</h3>
-                    <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="category">
-    <div class="container-fluid">
-        <div class="row no-gutters  popup-gallery ">
-            <div class="col-lg-4 col-sm-6">
-                <a href="" class="box">
-                    <img src="img/1.jpg" alt="" class="layer1 img-fluid  ">
-                    <div class="layer2"></div>
-                    <div class="layer3">
-                        <h3>Category</h3>
-                        <p>Project Name</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="" class="box">
-                    <img src="img/2.jpg" alt="" class="layer1 img-fluid  ">
-                    <div class="layer2"></div>
-                    <div class="layer3">
-                        <h3>Category</h3>
-                        <p>Project Name</p>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-lg-4 col-sm-6">
-                <a href="" class="box">
-                    <img src="img/4.jpg" alt="" class="layer1 img-fluid  ">
-                    <div class="layer2"></div>
-                    <div class="layer3">
-                        <h3>Category</h3>
-                        <p>Project Name</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="" class="box">
-                    <img src="img/4.jpg" alt="" class="layer1 img-fluid  ">
-                    <div class="layer2"></div>
-                    <div class="layer3">
-                        <h3>Category</h3>
-                        <p>Project Name</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="" class="box">
-                    <img src="img/5.jpg" alt="" class="layer1 img-fluid  ">
-                    <div class="layer2"></div>
-                    <div class="layer3">
-                        <h3>Category</h3>
-                        <p>Project Name</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="" class="box">
-                    <img src="img/6.jpg" alt="" class="layer1 img-fluid  ">
-                    <div class="layer2"></div>
-                    <div class="layer3">
-                        <h3>Category</h3>
-                        <p>Project Name</p>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="download">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <h3 class="text-white mb-4">Free Download at Start Bootstrap!</h3>
-                <a href="#" class="btn btn-primary btn-xl page-scroll text-uppercase find-more ">Download Now</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center content">
-                <h2 class="section-heading">Let's Get In Touch!</h2>
-                <hr class="primary">
-                <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
-            </div>
-            <div class="col-lg-6 col-lg-offset-2 text-center">
-                <i class="fa fa-phone fa-3x sr-contact"></i>
-                <p>123-456-6789</p>
-            </div>
-            <div class="col-lg-6 text-center">
-                <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                <p class="email"><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
-            </div>
-        </div>
-    </div>
-</section>
 <script src="js/jquery-3.2.1.js"></script>
+<script src="js/tether.js"></script>
 <script src="js/bootstrap.js"></script>
-
-<script src="js/app.js"></script>
+<script src="js/customJQuery.js"></script>
 </body>
 </html>
