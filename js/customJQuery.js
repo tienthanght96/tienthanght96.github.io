@@ -63,10 +63,10 @@ $(document).ready(function () {
 
     $("[data-fancybox]").fancybox();
 
-  TweenMax.from($('.one-page h2.tittle-content'),3,{marginTop:-100 , opacity :0 ,delay:0.5});
-  TweenMax.from($('.one-page p'),4,{marginLeft:-500 , opacity :0 ,delay:0.5}) ;
-  TweenMax.from($('.one-page a.btn-lg'),5,{marginLeft:-500 , opacity :0 ,delay:0.5}) ;
-  TweenMax.from($('a.btn-lg.btn-secondary'),5,{marginRight:-500  ,delay:0.5}) ;
+  // TweenMax.from($('.one-page h2.tittle-content'),3,{marginTop:-100 , opacity :0 ,delay:0.5});
+  // TweenMax.from($('.one-page p'),4,{marginLeft:-500 , opacity :0 ,delay:0.5}) ;
+  // TweenMax.from($('.one-page a.btn-lg'),5,{marginLeft:-500 , opacity :0 ,delay:0.5}) ;
+  // TweenMax.from($('a.btn-lg.btn-secondary'),5,{marginRight:-500  ,delay:0.5}) ;
 
    /* $('.ul-menu li a').bind('click', function (event) {
         event.preventDefault();
