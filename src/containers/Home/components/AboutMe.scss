@@ -1,0 +1,22 @@
+.about-me {
+  padding-bottom: 20px;
+}
+p.description-me {
+  margin-bottom: 10px;
+}
+.text-bold-uppercase {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+.circle-squre{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #ff9800a1 0%, rgba(202, 137, 48, 0.34) 100%);
+  margin: 10px 0;
+}
