@@ -22,7 +22,8 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(['build']),
     new HtmlWebpackPlugin({
-      template: __dirname + "/src/index.html"
+      template: __dirname + "/src/index.html",
+       favicon: `src/assets/koala-svgrepo-com.ico`,
     }),
     new MiniCssExtractPlugin({
       filename: devMode ? '[name].bundle.css' : '[name].[hash].bundle.css',

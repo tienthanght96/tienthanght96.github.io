@@ -1,16 +1,16 @@
 {
   "name": "webpack-2-react",
-  "homepage": "http://tienthanght96.github.io",
   "version": "1.0.0",
   "description": "",
   "private": true,
+  "homepage": "https://tienthanght96.github.io/portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.prod.js",
     "dev": "webpack-dev-server --open --config webpack.dev.js",
     "watch": "webpack --watch",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build",
   },
   "keywords": [],
   "author": "",
