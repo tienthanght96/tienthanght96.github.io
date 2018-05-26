@@ -290,6 +290,14 @@ body {
   .socials-contact-links a.social-contact-item {
     padding: 0 10px;
     color: #626262; }
+  .socials-contact-links a.social-contact-item--button-download-cv {
+    text-decoration: none;
+    background-image: linear-gradient(to right top, #ff5252, #fe6342, #fb7532, #f48623, #eb9612);
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-size: 13px; }
 
 .built-info-profile {
   position: absolute;
